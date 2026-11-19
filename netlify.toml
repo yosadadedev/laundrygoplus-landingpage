@@ -1,0 +1,8 @@
+# Netlify build for laundrygoplus.id (Next.js; Netlify adds its Next.js runtime itself).
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  # Next.js 16 needs Node 20.9+. Without this Netlify may build with an older default.
+  NODE_VERSION = "24"
