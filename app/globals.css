@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-plus-jakarta-sans);
+  --font-mono: var(--font-jetbrains-mono);
+  /* "laundrygo+" wordmark, like the app */
+  --font-wordmark: var(--font-comfortaa);
+}
+
+/* LaundryGo+ terracotta, the app's primary color (apps/mobile/src/core/theme/colors.ts). */
+@theme {
+  --color-brand: #B9583A;
+  --color-brand-dark: #9A4630;
+  --color-brand-light: #D47354;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-plus-jakarta-sans), Arial, Helvetica, sans-serif;
+}
