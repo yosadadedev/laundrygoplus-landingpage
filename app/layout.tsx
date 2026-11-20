@@ -38,7 +38,7 @@ const description =
   "Aplikasi kasir laundry untuk UMKM: catat cucian kiloan & satuan, Reguler/Express/Kilat, nota WhatsApp & printer Bluetooth, status cucian, kasbon, dan laporan keuangan. Bisa offline.";
 
 export const viewport: Viewport = {
-  themeColor: "#B9583A",
+  themeColor: "#D97757",
 };
 
 export const metadata: Metadata = {

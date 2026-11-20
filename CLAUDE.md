@@ -24,7 +24,7 @@ No test suite.
 - `app/layout.tsx`: fonts (Plus Jakarta Sans, JetBrains Mono, Comfortaa for the "laundrygo+" wordmark) and all SEO metadata + JSON-LD. Update metadata there, not per page. GA4 runs only in production when `NEXT_PUBLIC_GA_ID` is set.
 - `app/site.ts`: site URL, WhatsApp, and the legal page links. `app/components/StoreButtons.tsx`: store links (`APP_STORE_URL = null` shows "Segera di App Store").
 - `app/page.tsx` stacks the sections, one per navbar anchor (`#kenapa`, `#fitur`, `#cara-pakai`, `#faq`, `#harga`): Navbar, Hero, Kenapa, Fitur, CaraPakai, FAQ, Harga (free), Footer. FAQ texts in `app/data/faqs.ts` also feed the FAQPage JSON-LD.
-- Brand colors are Tailwind theme tokens from the app (`app/globals.css`): `brand` `#B9583A` (terracotta), `brand-dark`, `brand-light` `#D47354`. Use `bg-brand`, `text-brand`, … never hex values in components. Logo: `app/components/Logo.tsx`.
+- Brand colors are Tailwind theme tokens from the app (`app/globals.css`): `brand` `#D97757` (terracotta), `brand-dark` `#B9583A`, `brand-light` `#E8967A`. Use `bg-brand`, `text-brand`, … never hex values in components. Logo: `app/components/Logo.tsx`.
 - `/kebijakan-privasi` and `/syarat-ketentuan` redirect to the API pages (`api.laundrygoplus.id/privacy`, `/terms`): the legal text lives once, in `packages/shared/src/legal.ts`.
 - The hero shows the app's opening screen, not screenshots, until real LaundryGo+ screenshots are added to `public/`.
 

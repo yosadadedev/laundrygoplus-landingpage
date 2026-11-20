@@ -23,7 +23,7 @@ export default async function OpengraphImage() {
           alignItems: "center",
           justifyContent: "space-between",
           padding: "0 80px",
-          background: "linear-gradient(135deg, #B9583A 0%, #8A3F28 100%)",
+          background: "linear-gradient(135deg, #D97757 0%, #B9583A 100%)",
           color: "white",
         }}
       >
@@ -44,7 +44,7 @@ export default async function OpengraphImage() {
               marginTop: 40,
               padding: "14px 28px",
               background: "white",
-              color: "#B9583A",
+              color: "#D97757",
               borderRadius: 999,
               fontSize: 26,
               fontWeight: 700,

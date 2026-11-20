@@ -16,9 +16,9 @@
 
 /* LaundryGo+ terracotta, the app's primary color (apps/mobile/src/core/theme/colors.ts). */
 @theme {
-  --color-brand: #B9583A;
-  --color-brand-dark: #9A4630;
-  --color-brand-light: #D47354;
+  --color-brand: #D97757;
+  --color-brand-dark: #B9583A;
+  --color-brand-light: #E8967A;
 }
 
 * {
